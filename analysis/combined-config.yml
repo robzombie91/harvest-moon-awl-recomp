@@ -1,0 +1,20 @@
+object: rom/main.dol
+hash: 1ccfd9dfb5c250c2f45c70c74cc45e5d88d22374
+symbols: analysis/combined-symbols.txt
+splits: analysis/combined-splits.txt
+modules:
+- object: analysis/rels/wlp0.rel
+  name: wlp0
+  symbols: analysis/rel-symbols/wlp0.txt
+  splits: analysis/rel-symbols/wlp0.splits.txt
+  hash: cf82697ee0d50ce11602b2b531e844f3d68c7318
+- object: analysis/rels/wlp1.rel
+  name: wlp1
+  symbols: analysis/rel-symbols/wlp1.txt
+  splits: analysis/rel-symbols/wlp1.splits.txt
+  hash: 509f77d903c89472be5590d45ddf65ddb2e93055
+- object: analysis/rels/wlp2.rel
+  name: wlp2
+  symbols: analysis/rel-symbols/wlp2.txt
+  splits: analysis/rel-symbols/wlp2.splits.txt
+  hash: a160e6651fd50af8471a487b9a187044f683427c
