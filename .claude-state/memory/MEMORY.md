@@ -1,1 +1,1 @@
-- [GX checkerboard status](gx-checkerboard-status.md) — sampler-key fix pending runtime verification
+- [Generation 3.2 memories](gen3.2.md) — 1 entries

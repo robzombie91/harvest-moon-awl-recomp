@@ -1,3 +1,5 @@
+## gx-checkerboard-status
+
 ---
 name: gx-checkerboard-status
 description: Where the GX checkerboard investigation stands; record lives in docs/dev/gx-checkerboard-investigation.md
