@@ -1,1 +1,3 @@
 801B2D8C OSSaveContext
+801B4860 OSLink
+801B4ABC OSUnlink
