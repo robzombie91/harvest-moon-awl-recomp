@@ -4,10 +4,10 @@ Experimental native Linux recompilation of **Harvest Moon: A Wonderful Life** (N
 
 ## Status
 
-- The game launches and runs natively on CachyOS Linux.
+- The game launches and runs natively on CachyOS Linux. Startup and basic rendering work (2026-11-22): the title screen and an imported late-game save load, and the outdoor scene is reachable.
 - Dynamic REL modules are supported in the working local build.
 - Memory-card saving works in the working local build.
-- **Major known issue:** checkerboard graphics corruption on a building and nearby trees in the outdoor scene. Dolphin Emulator renders the same scene correctly.
+- Fixed (2026-11-23, verified visually by the developer): the large checkerboard on the building and trees. The game's stippled building transparency was drawn with its 16x16 mask stretched across the screen, because the renderer ignored the GX texture-coordinate scale registers (SU_SSIZE/TSIZE). The mask now shows as fine stippling and the player is visible through obstructing buildings. Not yet compared against Dolphin or regression-tested elsewhere (see docs/dev/gx-checkerboard-investigation.md).
 - **Not a finished or independently verified portable release.** No prebuilt binaries are provided.
 
 The project is under active investigation. The modified renderer and runtime are preserved in the linked **gcn-recomp** fork, at the submodule commit pinned by this repository.

@@ -14,6 +14,7 @@ Who: robzombie91. Experience: advanced. Domain: harvest-moon-awl-recomp.
 Preferences: recommendations, not questions. Plain-English recaps at phase end. A notification
 whenever anything waits on them. Autonomy: full inside an approved plan; stop only at the two gates. Notification channel: toast.
 Their login shell is fish: commands handed to them use fish syntax (`; and`, not `&&`).
+Every agent launch of `./build-rel/hmawl` (replays, smoke runs, diagnostics) passes `--fast` (no clock pacing); never launch it without.
 The developer pushes; agents never do. They ratify rules at the next plan approval.
 
 ## Tools <!-- roles: expert coder planner review auditor curator -->
